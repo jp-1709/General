@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Work Sans", sans-serif;
+  }
+
+:root{
+  --white:#ffffff;
+  --green:#24CC5C;
+  --red:#FC0404;
+}  
+  
+html{
+  overflow-x: hidden;
+  
+}
+body{
+  overflow-x: hidden;
+  overflow-y: hidden;
+ height: auto;
+  border: 0.2rem solid black;
+  margin-top: 5rem;
+  margin-left: 30rem;
+  margin-right: 30rem;
+}
+
+/* header */
+.header{
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  
+}
+.header .SatyaMev{
+  margin-left: 1rem;
+  margin-top: 3.2rem;
+  flex: start;
+  height: 4rem;
+
+}
+.header .adharLogo{
+  margin-left: 1rem;
+  margin-top: 3rem;
+  
+  height: 7rem;
+ 
+ padding-left: 22rem;
+ 
+}
+
+.section{
+  padding: 0.2rem 0;
+
+}
+.container {
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid-two-row {
+  grid-template-rows: repeat(3, 3.6rem);
+ 
+}
+.section-safron{
+  
+  background-color: #EB7234;
+}
+.section-safron .bharat{
+  text-align: center;
+  color:var(--white);
+}
+.section-safron .govt{
+  text-align: center;
+  color:var(--white);
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+}
+.section-white{
+  background-color: var(--white);
+}
+.section-green{
+  background-color: var(--green) ;
+}
+.section-green .green-marathi{
+  text-align: center;
+  color: var(--white);
+  font-size: 1.6rem;
+}
+.section-green .green-english{
+  text-align: center;
+  color: var(--white);
+  font-size: 1.4rem;
+ 
+}
+
+.details{
+  padding-top: 0.4rem;
+}
+.personal-info{
+  padding-top: 1.6rem;
+  padding-left: 4rem;
+  font-size: 12px;
+}
+
+.section{
+  padding: 0.2rem 0;
+  margin-top: 3.7rem;
+}
+.container {
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+}
+.grid-two-column {
+  grid-template-rows: repeat(2, 3.6rem);
+ 
+}
+.signature{
+  padding-left: 4rem;
+  height: 3rem;
+  float: left;
+}
+.barcode{
+  
+  height: 10.8rem;
+  width: 12rem;
+  float: right;
+  
+}
+.adhar-no{
+  text-align: center;
+}
+.adhar-no-two{
+    text-align: center;
+}
+.horizontal_dotted_line {
+  border-bottom: 1px dotted black;
+  width: 200px;
+  margin-left: 11rem;
+  
+}
+.horizontal_red_line{
+  border-bottom: 3px solid var(--red) ;
+}
+.horizontal_dotted_line2 {
+  border-bottom: 1px dashed black;
+  padding-top: 1rem;
+
+  
+}
+.logo1_base{
+  height: 3.2rem;
+  margin-top: 0.8rem;
+  margin-left: 0.6rem;
+  float: left;
+}
+.logo2_base{
+  height: 3.9rem;
+  margin-top: 0.8rem;
+  margin-right: 0.9rem;
+  float: right;
+}
+.logo3_base{
+  height: 3rem;
+  padding-left: 5rem;
+  margin-top: 1rem;
+}
+
+.issue{
+  writing-mode: vertical-lr;
+  padding-left: 0.9rem;
+  padding-top: 0.5rem;
+ font-size: 0.7rem;
+  
+}
+.section-base{
+  padding: 0.6rem 0;
+  display: inline-block;
+}
+.grid-two-column-base
+{
+  grid-template-columns: 5rem 7rem;
+}
+.me{
+  height: 10rem;
+}
+.info-base{
+  position: absolute;
+  margin-left: 15rem;
+  font-size: 12px;
+}
+
+.section-last{
+  padding-top: 3rem;
+}
+
+
+.adhar-num-last{
+  text-align: center;
+}
+.horizontal-dot{
+  border-bottom: 1px dotted black;
+  margin-left: 11rem;
+  width: 13rem;
+}
+.red-line{
+    border-bottom: 3px solid var(--red);
+  
+
+    
+}
